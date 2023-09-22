@@ -1,0 +1,25 @@
+{
+  "availabilities": [
+    {
+      "period_id": 1,
+      "total_days": 365,
+      "holidays": 10,
+      "weekend_days": 105,
+      "workdays": 250
+    },
+    {
+      "period_id": 2,
+      "total_days": 76,
+      "holidays": 3,
+      "weekend_days": 22,
+      "workdays": 51
+    },
+    {
+      "period_id": 3,
+      "total_days": 15,
+      "holidays": 0,
+      "weekend_days": 4,
+      "workdays": 11
+    }
+  ]
+}
