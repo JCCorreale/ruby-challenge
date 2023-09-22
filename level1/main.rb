@@ -1,6 +1,5 @@
 require "json"
 require "holidays"
-require "hashdiff"
 
 def isWeekend(date)
     return date.saturday? || date.sunday?
@@ -67,8 +66,7 @@ end
 
 # double check
 example_output = JSON.parse File.read example_output_filename
-diff = Hashdiff.diff(availabilities_hash, example_output)
-if diff
+if availabilities_hash == example_output
     puts "OK"
 else
     puts "KO"
